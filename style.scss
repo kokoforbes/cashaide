@@ -157,3 +157,25 @@ nav ul li a {
 .box8{
   background:#276BED;
 }
+
+
+@media only screen and (max-width: 600px) {
+  form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .form-control{
+      width: 250px !important;
+    }
+  }
+  
+
+  .card {
+    margin-top: 25px;
+  }
+  .spar {
+    margin-bottom: 50px;
+  }
+}
