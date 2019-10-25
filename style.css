@@ -1,0 +1,170 @@
+* {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.grey_text {
+  color: #bdbfc1;
+}
+
+.info {
+  width: 380px;
+  height: 38px;
+  background: rgba(231, 189, 79, 0.23);
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-brand {
+  width: 205px;
+  height: 25px;
+}
+
+nav ul li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #373435;
+}
+
+#home div div h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#home div div h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#about h1 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#benefit h1 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.btn {
+  background: #003f87;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  width: 438px;
+}
+
+.form .form-control {
+  height: 45px;
+  border: 1.5px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.card {
+  max-width: 812px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin: auto;
+}
+
+.box1 {
+  min-width: 338px;
+  height: 107px;
+  background: #00afef;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.box2 {
+  width: 338px;
+  height: 127px;
+  background: #bbbbbb;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.box {
+  width: 135px;
+  height: 135px;
+  background: #003f87;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.box3 {
+  background: #003F87;
+}
+
+.box4 {
+  background: #B88E1D;
+}
+
+.box5 {
+  background: #007A3D;
+}
+
+.box6 {
+  background: #C6B409;
+}
+
+.box7 {
+  background: #20975B;
+}
+
+.box8 {
+  background: #276BED;
+}
+/*# sourceMappingURL=style.css.map */
