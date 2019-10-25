@@ -111,26 +111,45 @@ nav ul li a {
 }
 
 .box1 {
-  min-width: 338px;
-  height: 107px;
+  width: 338px;
+  height: 100px;
   background: #00afef;
   border-radius: 10px;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
   margin-bottom: 15px;
 }
 
 .box2 {
   width: 338px;
-  height: 127px;
+  height: 100px;
   background: #bbbbbb;
   border-radius: 10px;
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
 }
 
 .box {
   width: 135px;
   height: 135px;
-  background: #003f87;
   border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
