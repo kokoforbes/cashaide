@@ -1,8 +1,10 @@
 * {
   font-family: Open Sans;
   font-style: normal;
-  font-size: 20px;
-  line-height: 27px;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .grey_text {
@@ -75,6 +77,16 @@ nav ul li a {
   }
 }
 
+.phone {
+  max-width: 100%;
+  height: auto;
+}
+
+.spar {
+  max-width: 100%;
+  height: auto;
+}
+
 .btn {
   background: #003f87;
   border-radius: 5px;
@@ -87,6 +99,7 @@ nav ul li a {
 
 .form {
   width: 438px;
+
   .form-control {
     height: 45px;
     border: 1.5px solid #e6e6e6;
@@ -163,12 +176,8 @@ nav ul li a {
   form div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
-    .form-control{
-      width: 250px !important;
-    }
+    justify-content: center !important;
+    align-items: center;
   }
   
 
